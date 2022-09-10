@@ -2,16 +2,16 @@ package com.reactive.java.application;
 
 import java.io.IOException;
 
-public class Exercise4 {
+public class Workout05 {
 
     public static void main(String[] args) throws IOException {
 
-        // Use ReactiveSources.intNumberMono()
+        // Use ReactiveSources.intNumberMono() and ReactiveSources.userMono()
 
-        // Print the value from intNumberMono when it emits
+        // Subscribe to a flux using the error and completion hooks
         // TODO: Write code here
 
-        // Get the value from the Mono into an integer variable
+        // Subscribe to a flux using an implementation of BaseSubscriber
         // TODO: Write code here
 
         System.out.println("Press a key to end");

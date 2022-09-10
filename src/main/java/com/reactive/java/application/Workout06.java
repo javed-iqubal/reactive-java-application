@@ -2,7 +2,7 @@ package com.reactive.java.application;
 
 import java.io.IOException;
 
-public class Exercise6 {
+public class Workout06 {
 
 
     public static void main(String[] args) throws IOException {

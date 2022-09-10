@@ -1,6 +1,6 @@
 package com.reactive.java.application;
 
-public class Exercise1 {
+public class Workout01 {
 
     public static void main(String[] args) {
 
