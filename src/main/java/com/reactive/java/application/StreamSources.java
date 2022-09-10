@@ -18,14 +18,17 @@ public class StreamSources {
                 .limit(10);
     }
 
-    public static Stream<Employee> employeeStream() {
+    public static Stream<Player> playerStream() {
         return Stream.of(
-                new Employee(1, "Lionel", "Messi"),
-                new Employee(2, "Cristiano", "Ronaldo"),
-                new Employee(2, "Diego", "Maradona"),
-                new Employee(4, "Zinedine", "Zidane"),
-                new Employee(5, "Jürgen", "Klinsmann"),
-                new Employee(6, "Gareth", "Bale")
+                new Player(1, "Cristiano", "Ronaldo"),
+                new Player(2, "Lionel", "Messi"),
+                new Player(2, "Diego", "Maradona"),
+                new Player(3, "Neymar", "Santos"),
+                new Player(3,"Kylian","Mbappé"),
+                new Player(4, "Zinedine", "Zidane"),
+                new Player(5, "Jürgen", "Klinsmann"),
+                new Player(6, "Gareth", "Bale"),
+                new Player(6, "Edison", "Nascimento")
         );
     }
 }

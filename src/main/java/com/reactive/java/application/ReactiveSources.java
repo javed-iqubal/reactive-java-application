@@ -39,21 +39,25 @@ public class ReactiveSources {
                 .delayElement(Duration.ofSeconds(1));
     }
 
-    public static Flux<Employee> employeeFlux() {
+    public static Flux<Player> playerFlux() {
         return Flux.just(
-                new Employee(1, "Lionel", "Messi"),
-                new Employee(2, "Cristiano", "Ronaldo"),
-                new Employee(2, "Diego", "Maradona"),
-                new Employee(4, "Zinedine", "Zidane"),
-                new Employee(5, "Jürgen", "Klinsmann"),
-                new Employee(6, "Gareth", "Bale")
+                new Player(1, "Cristiano", "Ronaldo"),
+                new Player(2, "Lionel", "Messi"),
+                new Player(2, "Diego", "Maradona"),
+                new Player(3, "Neymar", "Santos"),
+                new Player(3,"Kylian","Mbappé"),
+                new Player(4, "Zinedine", "Zidane"),
+                new Player(5, "Jürgen", "Klinsmann"),
+                new Player(6, "Gareth", "Bale"),
+                new Player(6, "Edison", "Nascimento")
+
         ).delayElements(Duration.ofSeconds(1));
     }
 
-    public static Mono<Employee> employeeMono() {
+    public static Mono<Player> playerMono() {
         return Mono.just(
-                new Employee(1, "Lionel", "Messi")
-        ).delayElement(Duration.ofSeconds(1));
+                new Player(2, "Cristiano", "Ronaldo")
+                ).delayElement(Duration.ofSeconds(1));
 
     }
 

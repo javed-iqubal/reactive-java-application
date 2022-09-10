@@ -5,13 +5,13 @@ package com.reactive.java.application;
  *
  */
 
-public class Employee {
+public class Player {
 
     private int id;
     private String firstName;
     private String lastName;
 
-    public Employee(int id, String firstName, String lastName) {
+    public Player(int id, String firstName, String lastName) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;

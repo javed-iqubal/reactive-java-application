@@ -4,7 +4,7 @@ public class Workout01 {
 
     public static void main(String[] args) {
 
-        // Use StreamSources.intNumbersStream() and StreamSources.employeeStream()
+        // Use StreamSources.intNumbersStream() and StreamSources.playerStream()
 
         // Print all numbers in the intNumbersStream stream
         // TODO: Write code here
@@ -19,10 +19,10 @@ public class Workout01 {
         //  If nothing is found, print -1
         // TODO: Write code here
 
-        // Print first names of all users in employeeStream
+        // Print first names of all users in playerStream
         // TODO: Write code here
 
-        // Print first names in employeeStream for employees that have IDs from number stream
+        // Print first names in playerStream for players that have IDs from number stream
         // TODO: Write code here
 
     }
